@@ -28,7 +28,7 @@ $paraghArray[] = explode(".", $paragh);
   <ul>
     <?php 
       for ($i = 0; $i < count($paraghArray[0]); $i++ ){
-        echo '<li>'. $paraghArray[0][$i]. '</li>';
+        if($paraghArray[0][$i] != '') {echo '<li>'. $paraghArray[0][$i]. '</li>';}
       }
     ?>
   </ul>
