@@ -38,8 +38,8 @@ $matchArray = [
 </head>
 <body>
 
+  <h2>JSnack 1</h2>
   <ul>
-    
     <?php 
       for ($i = 0; $i < count($matchArray); $i++ ){
         echo '<li>'. $matchArray[$i]['playerHost'] .' - '. $matchArray[$i]['playerGuest'] .' | '. $matchArray[$i]['pointHost'] .' - '. $matchArray[$i]['pointGuest']. '</li>';
