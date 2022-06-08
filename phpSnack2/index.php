@@ -44,11 +44,11 @@ if($isAuth ){
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JSnack 2</title>
+  <title>phpSnack 2</title>
 </head>
 <body>
 
-  <h2>JSnack 2</h2>
+  <h2>phpSnack 2</h2>
   <h1><?php echo $output ?></h1>
 
   <?php if(!$isAuth): ?>
